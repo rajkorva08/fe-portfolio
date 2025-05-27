@@ -1,4 +1,4 @@
-const { handleContactSubmission } = require("../services");
+const { handleContactSubmission } = require("../services/contactService");
 
 const submitContact = async (req, res, next) => {
   try {
